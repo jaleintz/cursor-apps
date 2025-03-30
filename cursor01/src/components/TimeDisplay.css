@@ -2,66 +2,61 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   min-height: 100vh;
   background-color: #282c34;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.time-display h1 {
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
-  color: #61dafb;
+  padding-top: 0.625rem;
 }
 
 .other-timezones {
   display: flex;
-  gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 0.625rem;
+  width: 100%;
 }
 
 .timezone-box {
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 1.5rem;
-  border-radius: 8px;
-  min-width: 200px;
+  padding: 0.3125rem;
+  border-radius: 2.5px;
+  min-width: 46px;
   text-align: center;
 }
 
 .timezone-label {
-  font-size: 1.2rem;
+  font-size: 0.5rem;
   color: #61dafb;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.125rem;
 }
 
 .timezone-time {
-  font-size: 1.8rem;
+  font-size: 0.625rem;
   font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.125rem;
 }
 
 .timezone-date {
-  font-size: 1rem;
+  font-size: 0.4375rem;
   color: #888;
-  line-height: 1.4;
+  line-height: 1.125;
 }
 
 .market-hours {
-  margin-top: 1rem;
-  padding-top: 1rem;
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .nyse-time {
-  font-size: 0.9rem;
+  font-size: 0.375rem;
   color: #61dafb;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.0625rem;
 }
 
 .nyse-schedule {
-  font-size: 1.1rem;
+  font-size: 0.4375rem;
   font-weight: 500;
   color: #fff;
 } 
